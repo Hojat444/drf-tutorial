@@ -23,5 +23,6 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('api-get-token/auth/',obtain_auth_token ),
     path('__debug__/', include('debug_toolbar.urls')),
+    path('graph/', include('graph.urls')),
     
 ]
